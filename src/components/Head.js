@@ -9,7 +9,7 @@ import logoSvg from '../assets/images/mainLogo7.svg'
 import {Link as LinkG} from 'gatsby'
 import { Link as LinkS} from "react-scroll"
 import {animateScroll as scroll} from 'react-scroll'
-const Header = () => {
+const Head = () => {
   const [clicked , setClicked] = useState(false);
   const [scrollNav, setScrollNav] = useState(false); 
 
@@ -63,7 +63,7 @@ return (
 )
 }
 
-export default Header
+export default Head
 
 const Nav = styled.div`
 background: ${({scrollNav}) => (scrollNav ? '#111' : 'transparent')};
